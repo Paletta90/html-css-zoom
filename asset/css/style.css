@@ -49,7 +49,6 @@ header{
 .block-sx{
     width: 15%;
     height: 100%;
-    background-color: red;
     display: flex;
     justify-content: space-around;
 }
@@ -60,12 +59,16 @@ header{
     align-items: center;
 }
 .block-cx{
-    width: 40%;
+    width: 50%;
     height: 100%;
-    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
 }
 .block-dx{
     width: 10%;
     height: 100%;
-    background-color: orange;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
