@@ -1,10 +1,29 @@
 /* Sectiom */
 section{
     height: calc(100vh - 100px);
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
+/* Label in alto a destra */
+.cont-label{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 11%;
+}
+.cont-label > i{
+    align-self: center;
+}
+.label-grey{
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+/* Griglia di immagini */
 .cont-img{
     background-color: green;
     width: 90%;
@@ -13,7 +32,6 @@ section{
     flex-wrap: wrap;
     overflow-y: auto;
 }
-
 .img-n{
     flex-basis: calc((100% / 7) - 5px);
     height: calc(100% / 5);
