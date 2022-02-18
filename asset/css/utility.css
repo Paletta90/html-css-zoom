@@ -15,3 +15,14 @@
 .bg-darkgrey{
     background-color: #222222;
 }
+
+/* Font */
+.f-white{
+    color: white;
+}
+.f-medium{
+    font-weight: 500;
+}
+.f-big{
+    font-size: 3em;
+}

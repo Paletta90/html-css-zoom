@@ -40,3 +40,32 @@ section{
 header{
     height: 100px;
 }
+.cont-header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-sx{
+    width: 15%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+.cont-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block-cx{
+    width: 40%;
+    height: 100%;
+    background-color: yellow;
+}
+.block-dx{
+    width: 10%;
+    height: 100%;
+    background-color: orange;
+}
