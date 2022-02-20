@@ -5,40 +5,37 @@ section{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 /* Label in alto a destra */
 .cont-label{
     position: absolute;
-    top: 5px;
-    right: 5px;
+    right: 10px;
+    top: 10px;
+    width: 12%;
+}
+.cont-label > div{
     display: flex;
-    justify-content: space-between;
-    width: 11%;
-}
-.cont-label > i{
-    align-self: center;
-}
-.label-grey{
+    align-items: center;
     padding: 5px 5px;
+    background-color: grey;
     border-radius: 5px;
 }
 
+
+
 /* Griglia di immagini */
-.cont-img{
-    background-color: green;
+.cont-grid{
     width: 90%;
     height: 90%;
-    display: flex;
-    flex-wrap: wrap;
     overflow-y: auto;
 }
 .img-n{
     flex-basis: calc((100% / 7) - 5px);
-    height: calc(100% / 5);
+    height: calc((100% / 5) - 10px);
     margin-right: 5px;
     margin-bottom: 10px;
     position: relative;
-    background-color: blue;
 }
 .label{
     position: absolute;
@@ -54,21 +51,15 @@ section{
     height: 100%;
 }
 
-/* Header */
-header{
+/* Footer */
+.cont-footer{
     height: 100px;
-}
-.cont-header{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .block-sx{
-    width: 15%;
+    flex-basis: 20%;
     height: 100%;
-    display: flex;
-    justify-content: space-around;
+    
 }
 .cont-icon{
     display: flex;
@@ -77,16 +68,16 @@ header{
     align-items: center;
 }
 .block-cx{
-    width: 50%;
+    flex-basis: 50%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
+    
+}
+/* Margin right ad Invite per centrarlo meglio */
+.block-cx > .cont-icon:nth-of-type(1) > p{
+  margin-right: 10px;
 }
 .block-dx{
-    width: 10%;
+    /* width: 10%; */
     height: 100%;
     background-color: #4a4a4a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
